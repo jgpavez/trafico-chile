@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+  <Style id="centroid">
+   <IconStyle>
+    <color>
+     ff0000ff
+    </color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <Point>
+    <coordinates>
+     -33.0436003,-71.6176671
+    </coordinates>
+   </Point>
+   <ExtendedData>
+    <Data name="coords">
+     <value>
+      -33.0436003,-71.6176671
+     </value>
+    </Data>
+    <Data name="label">
+     <value>
+      Errázuriz, Valparaíso, Valparaíso Region, Chile
+     </value>
+    </Data>
+   </ExtendedData>
+  </Placemark>
+ </Document>
+</kml>

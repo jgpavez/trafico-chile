@@ -1,0 +1,9 @@
+# Create your views here.
+from  django.shortcuts import render_to_response
+from trafico_map.models import TraficoMap
+
+def index(request):
+   trafico = TraficoMap() 
+   kml = trafico.createKMLMap()
+   kml_file = 'http://localhost:8000/static/' + 'cta.kml'
+   return render_to_response('trafico_map/index.html',{'kml':str(kml_file)})

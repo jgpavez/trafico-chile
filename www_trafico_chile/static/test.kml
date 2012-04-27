@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+  <Style id="centroid">
+   <IconStyle>
+    <color>
+     ff0000ff
+    </color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <Point>
+    <coordinates>
+     -33.014228,-71.5517288
+    </coordinates>
+   </Point>
+   <ExtendedData>
+    <Data name="text">
+     <value>
+      trafico en Av. Libertad, Viña del Mar, Chile @trafico_chile
+     </value>
+    </Data>
+    <Data name="coords">
+     <value>
+      -33.014228,-71.5517288
+     </value>
+    </Data>
+    <Data name="label">
+     <value>
+      Av Libertad, Viña del Mar, Valparaíso Region, Chile
+     </value>
+    </Data>
+   </ExtendedData>
+  </Placemark>
+ </Document>
+</kml> 

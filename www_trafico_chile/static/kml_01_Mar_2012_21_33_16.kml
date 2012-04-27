@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+  <Style id="centroid">
+   <IconStyle>
+    <color>
+     ff0000ff
+    </color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <Point>
+    <coordinates>
+     -71.5517288,-33.014228
+    </coordinates>
+   </Point>
+   <ExtendedData>
+    <Data name="text">
+     <value>
+      trafico en Av. Libertad, Viña del Mar, Chile @trafico_chile
+     </value>
+    </Data>
+    <Data name="coords">
+     <value>
+      -71.5517288,-33.014228
+     </value>
+    </Data>
+    <Data name="label">
+     <value>
+      Av Libertad, Viña del Mar, Valparaíso Region, Chile
+     </value>
+    </Data>
+   </ExtendedData>
+  </Placemark>
+  <Placemark>
+   <Point>
+    <coordinates>
+     -71.6176671,-33.0436003
+    </coordinates>
+   </Point>
+   <ExtendedData>
+    <Data name="text">
+     <value>
+      Taco en Av.Errazuriz, Valparaiso, Chile @trafico_chile
+     </value>
+    </Data>
+    <Data name="coords">
+     <value>
+      -71.6176671,-33.0436003
+     </value>
+    </Data>
+    <Data name="label">
+     <value>
+      Errázuriz, Valparaíso, Valparaíso Region, Chile
+     </value>
+    </Data>
+   </ExtendedData>
+  </Placemark>
+  <Placemark>
+   <Point>
+    <coordinates>
+     -71.5818484,-33.0484795
+    </coordinates>
+   </Point>
+   <ExtendedData>
+    <Data name="text">
+     <value>
+      Accidente en 15 Norte, Viña del Mar @trafico_chile
+     </value>
+    </Data>
+    <Data name="coords">
+     <value>
+      -71.5818484,-33.0484795
+     </value>
+    </Data>
+    <Data name="label">
+     <value>
+      Norte 15, Valparaíso, Valparaíso Region, Chile
+     </value>
+    </Data>
+   </ExtendedData>
+  </Placemark>
+  <Placemark>
+   <Point>
+    <coordinates>
+     -71.5062144,-32.9935559
+    </coordinates>
+   </Point>
+   <ExtendedData>
+    <Data name="text">
+     <value>
+      taco frente a sector 1, reñaca, viña del mar @trafico_chile
+     </value>
+    </Data>
+    <Data name="coords">
+     <value>
+      -71.5062144,-32.9935559
+     </value>
+    </Data>
+    <Data name="label">
+     <value>
+      Mar de Chile 1, Viña del Mar, Valparaíso Region, Chile
+     </value>
+    </Data>
+   </ExtendedData>
+  </Placemark>
+ </Document>
+</kml>

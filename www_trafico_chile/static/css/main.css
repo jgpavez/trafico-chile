@@ -1,0 +1,109 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.header
+{
+	width: 99%;
+	background: #333 none repeat scroll 0%;
+	height: 50px;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+}
+
+.content
+{
+	
+}
+
+.footer
+{
+	padding: 0px 10px 10px 10px;
+	clear: both;
+	height:10px;
+	margin-top:1px;
+	background: #C8D9E2;
+	text-align:center;
+        font: 13px/1.5 Helvetica Neue, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+        color: #333;
+}
+
+.info
+{	
+	float: right;
+	top:90px;
+	width:258px;
+	height:85%;
+	margin-right:10px;
+	background:#fff;
+	border:0px solid #000;
+}
+	
+#map_canvas
+{
+	float: left;
+	height:85%;
+	width:80%;
+}
+.tweet-info
+{
+	height: 40%;
+	width: 100%;
+	top-margin: 5px;
+}
+.help
+{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 60%;
+	width: 100%;
+	margin: 4px 4px 4px 4px;
+	background: #C8D9E2;
+	font-size:13px;
+	font: 13px/1.5 Helvetica Neue, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	color: rgba(51,51,51,0.6);
+
+}
+.beforefooter{
+	height: 25px;
+	width: 100%;
+	float:left;
+        font-size:13px;
+	padding: 2px 2px 0px 20px;
+        font: 13px/1.5 Helvetica Neue, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+        color: #333;
+}
+hr
+{
+	border:0;
+	border-top: 1px solid rgba(0,0,0,0.0976563);
+	border-bottom: 1 px solid rgba(255,255,255,0.3);
+	clear:both;
+	height:0;
+	display:block;
+	margin: 15px 0 15px 0;
+}
+.info h2
+{
+	font-family: 'Helvetiva Neue', Helvetica,Arial,Sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color:#333;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+@media print{
+	html, body {
+		height: auto;
+	}
+	#map_canvas {
+		height: 650px;
+	}
+}

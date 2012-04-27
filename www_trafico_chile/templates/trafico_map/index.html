@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps JavaScript API v3 Example: KmlLayer KML</title>
+<link href="/static/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+function initialize() {
+  var myLatlng = new google.maps.LatLng(-33.037449,-71.619988);
+  var myOptions = {
+    zoom: 11,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+  var ctaLayer = new google.maps.KmlLayer('{{ kml }}');
+  ctaLayer.setMap(map);
+}
+</script>
+</head>
+<body onload="initialize()">
+  <div class="header"> 
+	<img width=180px height=50px style="margin-top:0;padding-top:0;" src="/static/images/traficochile2.png" >
+  </div>
+  <div id="map_canvas"></div>
+  <div class="info">
+	<div id="tweet-info" class="tweet-info">asd</div>
+	<div class="help" style="padding-top:1px;">
+	<div class="help-info" style="height:65%;width:100%;padding-left:15px;padding-bottom:10px;padding-right:10px;" >	<h2>Como Funciona? </h2>
+	<p style="padding-top:0px;margin-top:0px;padding-right:20px;">
+	<label style="color:#0084B4;">@Trafico_chile</label> analiza en tiempo real los tweets que refieren a las condiciones de trafico para luego predecir periodos y lugares de alto tráfico.
+	</p>
+	<h2 style="padding-top:0;margin-top:0;">Como lo uso? </h2>	
+	<p style="padding-top:0px;margin-top:0px;padding-right:20px;">
+	Debes mencionar en tus tweets a <label style="color:#0084B4;">@Trafico_chile</label>, ademas los tweets deben ser de la forma <strong> Taco en [lugar] @trafico_chile</strong>, para que el sistema los reconozca.
+	</p>
+	</div>
+	<div style="width:91%;float:center;margin-left:10px">
+	<hr />
+	</div>
+	<div class="help-data" style="heigth:35%; width:100%;padding-left:15px;padding-bottom:10px;margin-top:0;padding-top:0;">
+	<p style="padding-top:0px;margin-top:0px;padding-right:20px;">
+	Mostrando <strong> 48 </strong>tweets de la ultima hora, de un total
+	de <strong>1020</strong> en el dia.
+	</p>
+	</div>
+	</div>
+	</div>
+  </div>
+  <div class="beforefooter">
+	Mostrando los tweets del periodo transcurrido entre 05:34 y 06:34 del 8 de Febrero del 2012.
+  </div>
+  <div class="footer">Creado por @juanpavez </div>
+</body>
+</html>
