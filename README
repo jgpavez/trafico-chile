@@ -1,0 +1,15 @@
+********************************************
+**********Trafico Chile*********************
+
+Online service that predict traffic condictions
+based on what the people is saying in twitter using
+Machine Learning methods.
+
+Service:
+Run a python script that keep reading tweets with
+traffic information and save it in kml format to display it in
+google maps.
+
+www_trafico_chile:
+Django web platform that show maps with information readed
+by service
